@@ -33,9 +33,10 @@ jobs:
       uses: docker/build-push-action@v6.16.0
       with:
         context: src
-        file: src/Dockerfile
+        file: Dockerfile
         push: true
-        tags: gregoriofsg/conversao-temperatura:v1
+        tags: 
+          gregoriofsg/conversao-temperatura:v1
           
         
     
